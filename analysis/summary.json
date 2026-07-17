@@ -17,5 +17,9 @@
   "azimuth_R": 0.95,
   "azimuth_fg_deg": 55.0,
   "elevation_fg_median_deg": -3.0,
-  "n_events": 31
+  "n_events": 31,
+  "fg_fraction_median": 0.51,
+  "fg_fraction_p90": 0.88,
+  "spectral_events_per_min": 35.7,
+  "spectral_event_median_dur_s": 3.0
 }

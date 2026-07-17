@@ -44,6 +44,10 @@ Zoom H3-VR, AmbiX B-format (ACN: W-Y-Z-X, SN3D), upright. Levels are uncalibrate
 | Dynamics L10−L90 (dB) | 4.5 |
 | Events ≥ +8 dB (per min) | 1.3 |
 | Median event duration (s) | 0.25 |
+| Spectral foreground fraction, median | 0.51 |
+| Spectral foreground fraction, P90 | 0.88 |
+| Spectral events (per min) | 35.7 |
+| Median spectral event duration (s) | 3.0 |
 | Spectral centroid, median (Hz) | 532 |
 | Spectral flatness, median | 0.007 |
 | Diffuseness ψ, median | 0.63 |

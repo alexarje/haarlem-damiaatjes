@@ -45,6 +45,59 @@
       "az_R": 0.67
     }
   ],
+  "phase_stats": {
+    "A0": {
+      "mean_phase": 0.4073556226440088,
+      "R": 0.9754,
+      "circ_sd_s": 0.1125,
+      "rayleigh_p": 0.0,
+      "n": 375
+    },
+    "A1": {
+      "mean_phase": 0.04648619810895293,
+      "R": 0.9498,
+      "circ_sd_s": 0.1618,
+      "rayleigh_p": 0.0,
+      "n": 359
+    },
+    "A2": {
+      "mean_phase": 0.8527349278858377,
+      "R": 0.9606,
+      "circ_sd_s": 0.1429,
+      "rayleigh_p": 0.0,
+      "n": 57
+    },
+    "A3": {
+      "mean_phase": 0.7151966708117499,
+      "R": 0.9703,
+      "circ_sd_s": 0.1238,
+      "rayleigh_p": 0.0,
+      "n": 84
+    },
+    "B0": {
+      "mean_phase": 0.9210677251391095,
+      "R": 0.9766,
+      "circ_sd_s": 0.1098,
+      "rayleigh_p": 0.0,
+      "n": 390
+    },
+    "B1": {
+      "mean_phase": 0.4080131519609658,
+      "R": 0.963,
+      "circ_sd_s": 0.1384,
+      "rayleigh_p": 0.0,
+      "n": 349
+    }
+  },
+  "phase_lock": {
+    "B_vs_A": {
+      "mean_offset_cycles": 0.513,
+      "mean_offset_s": 1.6245,
+      "R": 0.9968,
+      "circ_sd_s": 0.0406,
+      "n": 390
+    }
+  },
   "crosstalk_suspects": {
     "A0": 0.6,
     "B1": 0.65
