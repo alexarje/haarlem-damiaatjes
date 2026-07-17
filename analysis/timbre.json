@@ -1,0 +1,40 @@
+{
+  "n_events_fingerprinted": 150,
+  "n_classes": 3,
+  "n_unclustered": 116,
+  "classes": [
+    {
+      "n": 23,
+      "exemplar_t0_s": [
+        272,
+        367,
+        405,
+        443,
+        462
+      ],
+      "centroid_hz": 2484,
+      "decay_median_db_s": -9.6
+    },
+    {
+      "n": 9,
+      "exemplar_t0_s": [
+        435,
+        530,
+        549,
+        587,
+        625
+      ],
+      "centroid_hz": 2825,
+      "decay_median_db_s": -13.5
+    },
+    {
+      "n": 2,
+      "exemplar_t0_s": [
+        416,
+        890
+      ],
+      "centroid_hz": 4552,
+      "decay_median_db_s": -16.6
+    }
+  ]
+}

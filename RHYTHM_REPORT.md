@@ -101,6 +101,12 @@ cross-talk suspects by the module and correspond to the same physical strikes.*
   minutes**. Independent swinging bells cannot do this; the two bells behave as
   one mechanically coordinated system (shared drive/automation — or, if they are
   genuinely independent pendulums, a remarkably strong entrainment).
+- **Both bells physically swing** (`rhythm.partial_fm`): each bell's partials
+  are frequency-modulated at the cycle rate — Doppler from the moving bell —
+  at 2.95 cents (A nominal) and 1.61 cents (B nominal), 20–70× above an
+  off-rate control. So B is not chimed: it swings but sounds only one audible
+  strike per cycle, and the millisecond lock between two *swinging* bells is a
+  genuine mechanical-synchronization observation.
 - **A₂ — the backswing strike — is the free agent**: 115 ms cycle-to-cycle
   jitter, low autocorrelation, 9% missed cycles, and only r ≈ 0.6 correlation
   with the rest. The "life" in the pattern is clapper physics on the backswing.
@@ -150,9 +156,12 @@ frequencies reflects the strike/decay cycling.*
 
 - **Keynote bed:** broadband low-frequency city/traffic noise (<500 Hz),
   continuous throughout (spectral flatness median 0.007, centroid median 532 Hz).
-- During ringing the field is **lo-fi** in Schafer's terms — the bell pattern and
-  drone mask mid/high bands; the dominant level-modulation of the whole section
-  is 0.63 Hz = the mean strike rate (2 strikes / 3.17 s).
+- During ringing the field is **lo-fi** in Schafer's terms — but the masking is
+  frequency-selective (`background.masking_index`): the bells elevate the
+  typical spectral floor by **9–14 dB in their partial bands** (1.1, 1.9, 2.9,
+  3.3, 3.8 kHz; 16% of bands > 6 dB) while the median elevation across
+  250 Hz–8 kHz is only 1.3 dB. The dominant level-modulation of the section is
+  0.63 Hz = the mean strike rate (2 strikes / 3.17 s).
 - **After the bells stop** (21:30–21:33): median level drops ~8 dB (L50 −52 vs.
   −43.7 dBFS full-session); level modulation becomes slow and aperiodic
   (dominant components at ~43 s, ~11 s, ~6 s — traffic waves), punctuated by

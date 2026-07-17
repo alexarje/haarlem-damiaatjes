@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "period_s": 86400.0,
+      "phase_s": 76967.0,
+      "R": 0.999,
+      "circ_sd_s": 475.8,
+      "rayleigh_p": 0.0,
+      "n": 31,
+      "n_cycles": 1
+    },
+    {
+      "period_s": 3600.0,
+      "phase_s": 1393.9,
+      "R": 0.691,
+      "circ_sd_s": 492.7,
+      "rayleigh_p": 0.0,
+      "n": 31,
+      "n_cycles": 1
+    },
+    {
+      "period_s": 300.0,
+      "phase_s": 131.7,
+      "R": 0.205,
+      "circ_sd_s": 85.0,
+      "rayleigh_p": 0.27348750915819225,
+      "n": 31,
+      "n_cycles": 5
+    },
+    {
+      "period_s": 1800.0,
+      "phase_s": 1658.9,
+      "R": 0.187,
+      "circ_sd_s": 524.3,
+      "rayleigh_p": 0.3393174023426018,
+      "n": 31,
+      "n_cycles": 1
+    }
+  ]
+}

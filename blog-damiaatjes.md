@@ -78,7 +78,10 @@ milliseconds*. Two independently swinging bells could never hold that: their
 pendulum periods would differ and the strikes would drift through each other.
 These two behave as one mechanical system — a shared automated drive is the
 likely explanation (though I confess I'd love it to be a Huygens-style
-entrainment through the tower structure). The whole pattern's *tempo* does
+entrainment through the tower structure). And they really do both swing: each
+bell's partials wobble by a few cents in pitch at exactly the swing rate —
+the Doppler shift of a moving bell — so this is two physically swinging
+bells holding a millisecond lock, not one swinger and one hammer. The whole pattern's *tempo* does
 wander — the cycle drifts by ±100 ms on a time scale of minutes — but the two
 bells wander *together* (correlation 0.96 between their timing residuals).
 
