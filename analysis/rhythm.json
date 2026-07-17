@@ -1,0 +1,103 @@
+{
+  "t_stop_s": 1266.0,
+  "sources": [
+    {
+      "name": "A",
+      "partials_hz": [
+        1130.9,
+        1910.2,
+        2343.8,
+        2437.5,
+        2466.8,
+        2882.8,
+        3369.1,
+        3861.3,
+        3960.9
+      ],
+      "period_s": 3.1669,
+      "n_strikes": 886,
+      "phase_clusters": [
+        0.99,
+        0.65,
+        0.51,
+        0.33
+      ],
+      "azimuth_deg": 30.6,
+      "elevation_deg": -0.1,
+      "az_R": 0.75
+    },
+    {
+      "name": "B",
+      "partials_hz": [
+        1359.4,
+        2302.7,
+        3029.3,
+        3433.6
+      ],
+      "period_s": 3.1669,
+      "n_strikes": 770,
+      "phase_clusters": [
+        0.99,
+        0.49
+      ],
+      "azimuth_deg": 19.7,
+      "elevation_deg": 5.0,
+      "az_R": 0.67
+    }
+  ],
+  "crosstalk_suspects": {
+    "A0": 0.6,
+    "B1": 0.65
+  },
+  "cycle": {
+    "A0": {
+      "pos": 0.293,
+      "hit_rate": 0.937,
+      "sd_ms": 110.092,
+      "lag1": 0.838,
+      "slow_sd_ms": 104.238,
+      "fast_sd_ms": 36.621
+    },
+    "A1": {
+      "pos": 2.052,
+      "hit_rate": 0.897,
+      "sd_ms": 161.886,
+      "lag1": 0.192,
+      "slow_sd_ms": 83.079,
+      "fast_sd_ms": 133.957
+    },
+    "A2": {
+      "pos": 1.517,
+      "hit_rate": 0.143,
+      "sd_ms": 142.207,
+      "lag1": 0.444,
+      "slow_sd_ms": 114.266,
+      "fast_sd_ms": 45.472
+    },
+    "A3": {
+      "pos": 1.0,
+      "hit_rate": 0.208,
+      "sd_ms": 119.602,
+      "lag1": 0.467,
+      "slow_sd_ms": 96.321,
+      "fast_sd_ms": 57.784
+    },
+    "B0": {
+      "pos": 1.635,
+      "hit_rate": 0.977,
+      "sd_ms": 109.605,
+      "lag1": 0.816,
+      "slow_sd_ms": 101.851,
+      "fast_sd_ms": 44.326
+    },
+    "B1": {
+      "pos": 0.275,
+      "hit_rate": 0.875,
+      "sd_ms": 138.266,
+      "lag1": 0.384,
+      "slow_sd_ms": 93.6,
+      "fast_sd_ms": 101.291
+    }
+  },
+  "cycle_period_s": 3.1669
+}

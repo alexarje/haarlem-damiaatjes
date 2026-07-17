@@ -1,0 +1,3 @@
+ambiscape @ git+https://github.com/fourMs/ambiscape
+nbclient
+ipykernel

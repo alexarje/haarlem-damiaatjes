@@ -1,0 +1,62 @@
+{
+  "calibrated": false,
+  "dbfs_to_dbspl": 94.0,
+  "field_type": "diffuse",
+  "segments": {
+    "quietest": {
+      "t0": "17 Jul 21:30:16",
+      "dur_s": 30.0,
+      "binaural_method": "cardioid-pair-fallback",
+      "left": {
+        "N5_sone": 3.36,
+        "N50_sone": 3.0,
+        "sharpness_median_acum": 1.23,
+        "roughness_median_asper": 0.009
+      },
+      "right": {
+        "N5_sone": 2.4,
+        "N50_sone": 2.1,
+        "sharpness_median_acum": 1.29,
+        "roughness_median_asper": 0.005
+      },
+      "N5_sone_max_ear": 3.36
+    },
+    "most_active": {
+      "t0": "17 Jul 21:17:48",
+      "dur_s": 30.0,
+      "binaural_method": "cardioid-pair-fallback",
+      "left": {
+        "N5_sone": 5.72,
+        "N50_sone": 4.02,
+        "sharpness_median_acum": 1.17,
+        "roughness_median_asper": 0.013
+      },
+      "right": {
+        "N5_sone": 4.69,
+        "N50_sone": 3.19,
+        "sharpness_median_acum": 1.12,
+        "roughness_median_asper": 0.01
+      },
+      "N5_sone_max_ear": 5.72
+    },
+    "typical": {
+      "t0": "17 Jul 21:16:51",
+      "dur_s": 30.0,
+      "binaural_method": "cardioid-pair-fallback",
+      "left": {
+        "N5_sone": 5.51,
+        "N50_sone": 3.75,
+        "sharpness_median_acum": 1.29,
+        "roughness_median_asper": 0.009
+      },
+      "right": {
+        "N5_sone": 4.36,
+        "N50_sone": 2.86,
+        "sharpness_median_acum": 1.32,
+        "roughness_median_asper": 0.007
+      },
+      "N5_sone_max_ear": 5.51
+    }
+  },
+  "warning": "no calibration.json \u2014 assumed offset 94.0 dB; absolute values indicative only"
+}

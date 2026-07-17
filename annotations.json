@@ -1,0 +1,133 @@
+{
+  "objects": [
+    {
+      "name": "bell A (Bb5, swinging)",
+      "label": "bell A: Bb5 strike, hum 475 Hz, 2 strikes/3.17 s cycle",
+      "kind": "soundmark",
+      "soundmark": "community",
+      "mass": "tonic",
+      "facture": "iteration",
+      "spans": [
+        [
+          "21:08:54",
+          "21:30:00"
+        ]
+      ]
+    },
+    {
+      "name": "bell B (D6)",
+      "label": "bell B: D6 strike, hum 598 Hz, 1 strike/cycle, phase-locked to A",
+      "kind": "soundmark",
+      "soundmark": "community",
+      "mass": "tonic",
+      "facture": "iteration",
+      "spans": [
+        [
+          "21:08:54",
+          "21:30:00"
+        ]
+      ]
+    },
+    {
+      "name": "bell hum drone",
+      "label": "sustained Bb/D hum (T60 ~17 s > cycle, never decays)",
+      "kind": "keynote",
+      "mass": "tonic-complex",
+      "facture": "sustained",
+      "spans": [
+        [
+          "21:08:54",
+          "21:30:00"
+        ]
+      ]
+    },
+    {
+      "name": "city traffic bed",
+      "label": "broadband low-frequency traffic/city bed (<500 Hz)",
+      "kind": "keynote",
+      "source": "anthropophony",
+      "mass": "noise",
+      "facture": "unlimited",
+      "spans": [
+        [
+          "21:08:54",
+          "21:33:24"
+        ]
+      ]
+    },
+    {
+      "name": "close transients (tail)",
+      "label": "close transients after ringing - passers-by/activity (unverified by ear)",
+      "kind": "figure",
+      "mass": "complex",
+      "facture": "impulse",
+      "events": [
+        "21:31:06",
+        "21:31:14",
+        "21:31:22",
+        "21:31:28",
+        "21:31:31",
+        "21:31:32",
+        "21:31:39",
+        "21:32:32",
+        "21:32:44"
+      ],
+      "_hints": [
+        {
+          "t": "21:31:06",
+          "exceed_db": 12.5,
+          "az": 120.0
+        },
+        {
+          "t": "21:31:14",
+          "exceed_db": 12.6,
+          "az": 61.0
+        },
+        {
+          "t": "21:31:22",
+          "exceed_db": 9.5,
+          "az": 58.0
+        },
+        {
+          "t": "21:31:28",
+          "exceed_db": 9.8,
+          "az": 49.0
+        },
+        {
+          "t": "21:31:31",
+          "exceed_db": 11.4,
+          "az": 83.0
+        },
+        {
+          "t": "21:31:32",
+          "exceed_db": 11.3,
+          "az": 75.0
+        },
+        {
+          "t": "21:31:39",
+          "exceed_db": 12.5,
+          "az": 64.0
+        },
+        {
+          "t": "21:32:32",
+          "exceed_db": 8.4,
+          "az": 33.0
+        },
+        {
+          "t": "21:32:44",
+          "exceed_db": 17.0,
+          "az": 81.0
+        }
+      ]
+    }
+  ],
+  "states": [
+    {
+      "label": "LO-FI (bell pattern masks the field)",
+      "span": [
+        "21:08:54",
+        "21:30:00"
+      ]
+    }
+  ]
+}
