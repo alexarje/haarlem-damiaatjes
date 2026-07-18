@@ -101,12 +101,18 @@ cross-talk suspects by the module and correspond to the same physical strikes.*
   minutes**. Independent swinging bells cannot do this; the two bells behave as
   one mechanically coordinated system (shared drive/automation — or, if they are
   genuinely independent pendulums, a remarkably strong entrainment).
-- **Both bells physically swing** (`rhythm.partial_fm`): each bell's partials
-  are frequency-modulated at the cycle rate — Doppler from the moving bell —
-  at 2.95 cents (A nominal) and 1.61 cents (B nominal), 20–70× above an
-  off-rate control. So B is not chimed: it swings but sounds only one audible
-  strike per cycle, and the millisecond lock between two *swinging* bells is a
-  genuine mechanical-synchronization observation.
+- **Both bells physically swing** (`rhythm.partial_fm`, weighted-LS
+  estimator): each bell's partials are frequency-modulated at the cycle rate —
+  Doppler from the moving bell — at 2.35 cents (A nominal) and 1.26 cents
+  (B nominal), 30–60× above an off-rate control. So B is not chimed: it swings
+  but sounds only one audible strike per cycle, and the millisecond lock
+  between two *swinging* bells is a genuine mechanical-synchronization
+  observation.
+- MIR cross-check (`ambiscape music`, librosa): the chromagram confirms the
+  C♯/A♯/D tonal content, while librosa's global tempo (123 BPM) illustrates a
+  methodological point — standard MIR tempo priors assume musical tempi and
+  miss the true 18.9 "BPM" (3.167 s) environmental cycle, which the windowed
+  ACF tempogram captures.
 - **A₂ — the backswing strike — is the free agent**: 115 ms cycle-to-cycle
   jitter, low autocorrelation, 9% missed cycles, and only r ≈ 0.6 correlation
   with the rest. The "life" in the pattern is clapper physics on the backswing.
